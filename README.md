@@ -2,6 +2,7 @@
 
 ### Introduction
 This is an official PyTorch implementation of Scene-Aware Label Graph Learning for Multi-Label Image Classification [[paper]]().
+
 ![alt tsformer](src/framework.png)
 
 
@@ -41,7 +42,7 @@ torchvision >= 0.10.0
 ```
 
 ### Evaluation
-Pre-trained weights can be found in [google drive](). Download and put them in the `experiments` folder, then one can use follow commands to reproduce results reported in paper.
+Pre-trained weights can be found in [google drive](https://drive.google.com/drive/folders/1Ys3c5a19Mg_PguDn5F2fKKnAFNx93uLX?usp=sharing). Download and put them in the `experiments` folder, then one can use follow commands to reproduce results reported in paper.
 ```bash
 python evaluate.py --exp-dir experiments/salgl_resnet101_mscoco/exp3     # Microsoft COCO (448 x 448)
 python evaluate.py --exp-dir experiments/salgl_resnet101_mscoco/exp6     # Microsoft COCO (576 x 576)
@@ -50,8 +51,8 @@ python evaluate.py --exp-dir experiments/salgl_vit_large_patch16_224_mscoco/exp1
 ```
 
 ### Visualization
-To visualize the word cloud and the label co-occurrence probability heatmap of different scene categories, please first download coco experiments from [google drive]() and then run following commands:
+To visualize the word cloud and the label co-occurrence probability heatmap of different scene categories, please first download coco experiments (salgl_resnet101_mscoco) and then run following commands:
 ```bash
-python labelcloud.py
-python heatmap.py
+python labelcloud.py --exp-dir experiments/salgl_resnet101_mscoco/exp3
+python heatmap.py --exp-dir experiments/salgl_resnet101_mscoco/exp3
 ```
