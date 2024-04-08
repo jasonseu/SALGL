@@ -1,7 +1,7 @@
 ## Scene-Aware Label Graph Learning for Multi-Label Image Classification
 
 ### Introduction
-This is an official PyTorch implementation of Scene-Aware Label Graph Learning for Multi-Label Image Classification [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhu_Scene-Aware_Label_Graph_Learning_for_Multi-Label_Image_Classification_ICCV_2023_paper.pdf).
+This is an official PyTorch implementation of Scene-Aware Label Graph Learning for Multi-Label Image Classification, ICCV 2023. [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhu_Scene-Aware_Label_Graph_Learning_for_Multi-Label_Image_Classification_ICCV_2023_paper.pdf)
 
 ![alt tsformer](src/framework.png)
 
