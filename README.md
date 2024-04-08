@@ -56,3 +56,14 @@ To visualize the word cloud and the label co-occurrence probability heatmap of d
 python labelcloud.py --exp-dir experiments/salgl_resnet101_mscoco/exp3
 python heatmap.py --exp-dir experiments/salgl_resnet101_mscoco/exp3
 ```
+
+### Citation
+```
+@inproceedings{zhu2023scene,
+  title={Scene-aware label graph learning for multi-label image classification},
+  author={Zhu, Xuelin and Liu, Jian and Liu, Weijia and Ge, Jiawei and Liu, Bo and Cao, Jiuxin},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={1473--1482},
+  year={2023}
+}
+```
